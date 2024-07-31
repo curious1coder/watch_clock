@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer Clock</title>
+    <meta name="author" content="samar">
+    <script src="main.js" defer></script>
+    <meta content="description" content="A Clock Timer Webpage">
+    <style>
+        #watch
+        {
+            font-size: 40px;
+            font-weight: 700;
+        }
+        #Start
+        {
+            height: 30px;
+            width: 70px;
+            <!-- margin-right: 20px; -->
+        }
+        #Stop{
+            height: 30px;
+            width: 70px;
+        }
+        #Reset
+        {
+            height: 30px;
+            width: 70px;
+        }
+
+    </style>
+</head>
+
+<body>
+        <h1> Stop Watch</h1>
+        <p id="watch">00:00</p>
+        <button type="button" id="Start" onclick="start()">Start</button>    
+        <button type="button" id="Stop" onclick="stop_()">Stop</button>    
+        <button type="button" id="Reset" onclick="reset()">Reset</button>    
+</body>
+
+
+</html>
